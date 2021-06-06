@@ -1,5 +1,5 @@
 # Redirect users with German language preference from / to /de
-/  /de  302  Language=de
+/  /de  302!  Language=de
 
 
 # Redirect users in Austria to flaconi.at instead of flaconi.de 
