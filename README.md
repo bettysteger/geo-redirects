@@ -12,3 +12,8 @@ Here are some examples: https://github.com/lpsBetty/geo-redirects/blob/main/_red
 The `Country` attribute accepts [ISO 3166 country codes](http://dev.maxmind.com/geoip/legacy/codes/iso3166/).
 
 The `Language` attribute accepts [standard browser language identification codes](http://www.metamodpro.com/browser-language-codes).
+
+## Affiliate Link Examples
+
+https://302.netlify.app/flaconi should redirect to flaconi.at if you are in Austria, otherwise it should redirect to flaconi.de. 
+
