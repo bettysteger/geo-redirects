@@ -22,21 +22,21 @@
         <h1 class="title">
           Weiterleitung je nach Land oder Sprache
         </h1>
-        <p>Bei großen multiregionalen oder mehrsprachigen Sites möchten Sie möglicherweise Site-Besucher basierend auf ihrem Standort (nach GeoIP-Daten des Landes) oder der Sprachkonfiguration ihres Browsers zu unterschiedlichen Inhalten weiterleiten.</p>
+        <p class="subtitle">Bei großen multiregionalen oder mehrsprachigen Sites möchten Sie möglicherweise Site-Besucher basierend auf ihrem Standort (nach GeoIP-Daten des Landes) oder der Sprachkonfiguration ihres Browsers zu unterschiedlichen Inhalten weiterleiten.</p>
 
-        <p><a href="https://docs.netlify.com/routing/redirects/" rel="nofollow">Netlify</a>&nbsp;kann diese Anfragen mit GeoIP- und sprachbasierten Weiterleitungen direkt von ihren CDN-Knoten verarbeiten.</p>
+        <p class="subtitle"><a href="https://docs.netlify.com/routing/redirects/" rel="nofollow">Netlify</a>&nbsp;kann diese Anfragen mit GeoIP- und sprachbasierten Weiterleitungen direkt von ihren CDN-Knoten verarbeiten.</p>
 
-        <p>Wenn Sie diese Umleitungsregeln hinzufügen, erstellt Netlify automatisch alternative Header, um die Umleitung in unseren CDN-Knoten zu ermöglichen. Dies macht einen Roundtrip zu unseren Ursprungsservern überflüssig und stellt sicher, dass normale Seiten neben länder- oder sprachbasierten Weiterleitungen auf den CDN-Knoten zwischengespeichert werden.</p>
+        <p class="subtitle">Wenn Sie diese Umleitungsregeln hinzufügen, erstellt Netlify automatisch alternative Header, um die Umleitung in unseren CDN-Knoten zu ermöglichen. Dies macht einen Roundtrip zu unseren Ursprungsservern überflüssig und stellt sicher, dass normale Seiten neben länder- oder sprachbasierten Weiterleitungen auf den CDN-Knoten zwischengespeichert werden.</p>
 
-        <p>Hier sind einige Beispiele:&nbsp;<a href="https://github.com/bettysteger/geo-redirects/blob/main/_redirects">https://github.com/bettysteger/geo-redirects/blob/main/_redirects</a></p>
+        <p class="subtitle">Hier sind einige Beispiele:&nbsp;<a href="https://github.com/bettysteger/geo-redirects/blob/main/_redirects">https://github.com/bettysteger/geo-redirects/blob/main/_redirects</a></p>
 
-        <p>Das&nbsp;<code>Country</code>-Attribut akzeptiert&nbsp;<a href="http://dev.maxmind.com/geoip/legacy/codes/iso3166/" rel="nofollow">ISO 3166-Ländercodes</a>.</p>
+        <p class="subtitle">Das&nbsp;<code>Country</code>-Attribut akzeptiert&nbsp;<a href="http://dev.maxmind.com/geoip/legacy/codes/iso3166/" rel="nofollow">ISO 3166-Ländercodes</a>.</p>
 
-        <p>Das&nbsp;<code>Language</code>-Attribut akzeptiert&nbsp;<a href="http://www.metamodpro.com/browser-language-codes" rel="nofollow">standardmäßige Browser-Spracherkennungscodes</a>.</p>
+        <p class="subtitle">Das&nbsp;<code>Language</code>-Attribut akzeptiert&nbsp;<a href="http://www.metamodpro.com/browser-language-codes" rel="nofollow">standardmäßige Browser-Spracherkennungscodes</a>.</p>
 
-        <h2>Affiliate Link Examples</h2>
+        <h2 class="title">Affiliate Link Examples</h2>
 
-        <p><a href="https://302.netlify.app/flaconi" rel="nofollow">https://302.netlify.app/flaconi</a>&nbsp;should redirect to flaconi.at if you are in Austria, otherwise it should redirect to flaconi.de.</p>
+        <p class="subtitle"><a href="https://302.netlify.app/flaconi" rel="nofollow">https://302.netlify.app/flaconi</a>&nbsp;should redirect to flaconi.at if you are in Austria, otherwise it should redirect to flaconi.de.</p>
       </div>
     </section>
   </body>
