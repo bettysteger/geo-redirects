@@ -22,19 +22,21 @@
         <h1 class="title">
           Redirect by country or language
         </h1>
-        <p class="subtitle">
-          For large multi-regional or multi-lingual sites, you may want to send site visitors to different content based on their location (by country GeoIP data) or their browser’s language configuration.
+        <p>For large multi-regional or multi-lingual sites, you may want to send site visitors to different content based on their location (by country GeoIP data) or their browser&rsquo;s language configuration.</p>
 
-          Netlify can handle these requests with GeoIP- and language-based redirects directly from their CDN nodes.
+        <p><a href="https://docs.netlify.com/routing/redirects/" rel="nofollow">Netlify</a>&nbsp;can handle these requests with GeoIP- and language-based redirects directly from their CDN nodes.</p>
 
-          When you add these redirect rules, Netlify automatically creates alternate headers to enable the redirection in our CDN nodes. This removes the need for a round trip to our origin servers and ensures that normal pages, besides country or language based redirects, are cached on the CDN nodes.
+        <p>When you add these redirect rules, Netlify automatically creates alternate headers to enable the redirection in our CDN nodes. This removes the need for a round trip to our origin servers and ensures that normal pages, besides country or language based redirects, are cached on the CDN nodes.</p>
 
-          Here are some examples: https://github.com/lpsBetty/geo-redirects/blob/main/_redirects
+        <p>Here are some examples:&nbsp;<a href="https://github.com/bettysteger/geo-redirects/blob/main/_redirects">https://github.com/bettysteger/geo-redirects/blob/main/_redirects</a></p>
 
-          The Country attribute accepts ISO 3166 country codes.
+        <p>The&nbsp;<code>Country</code>&nbsp;attribute accepts&nbsp;<a href="http://dev.maxmind.com/geoip/legacy/codes/iso3166/" rel="nofollow">ISO 3166 country codes</a>.</p>
 
-          The Language attribute accepts standard browser language identification codes.
-        </p>
+        <p>The&nbsp;<code>Language</code>&nbsp;attribute accepts&nbsp;<a href="http://www.metamodpro.com/browser-language-codes" rel="nofollow">standard browser language identification codes</a>.</p>
+
+        <h2>Affiliate Link Examples</h2>
+
+        <p><a href="https://302.netlify.app/flaconi" rel="nofollow">https://302.netlify.app/flaconi</a>&nbsp;should redirect to flaconi.at if you are in Austria, otherwise it should redirect to flaconi.de.</p>
       </div>
     </section>
   </body>
