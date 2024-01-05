@@ -6,3 +6,11 @@
 # There CANNOT be spaces in the last parameter: Country=x,y,z or Language=xx,yy
 /flaconi    https://www.awin1.com/cread.php?awinaffid=652375&awinmid=18187&platform=dl&ued=https%3A%2F%2Fwww.flaconi.at 302 Country=at
 /flaconi    https://www.awin1.com/cread.php?awinaffid=652375&awinmid=14598&platform=dl&ued=https%3A%2F%2Fwww.flaconi.de
+
+
+/avocadostore https://www.awin1.com/cread.php?awinmid=19075&awinaffid=652375&platform=dl&ued=https%3A%2F%2Fwww.avocadostore.de 302 Country=de
+/avocadostore https://www.awin1.com/cread.php?awinmid=28743&awinaffid=652375&platform=dl&ued=https%3A%2F%2Fwww.avocadostore.at
+
+/babor      https://www.awin1.com/cread.php?awinmid=14223&awinaffid=652375&platform=dl&ued=https%3A%2F%2Fde.babor.com 302 Country=de
+/babor      https://www.awin1.com/cread.php?awinmid=16977&awinaffid=652375&platform=dl&ued=https%3A%2F%2Fch.babor.com 302 Country=ch
+/babor      https://www.awin1.com/cread.php?awinmid=16975&awinaffid=652375&platform=dl&ued=https%3A%2F%2Fat.babor.com
